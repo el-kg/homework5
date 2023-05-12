@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         //задание 1
-        System.out.println("задание 1 ");
+        System.out.println("задание 1");
         int clientOS = 0;
         if (clientOS == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
@@ -9,7 +9,7 @@ public class Main {
             System.out.println("Установите версию приложения для Android по ссылке");
         }
         //задание 2
-        System.out.println("задание 2 ");
+        System.out.println("задание 2");
         int clientDeviceYear = 2012;
         if (clientDeviceYear >= 2015 ) {
                if (clientOS == 0) {
@@ -24,7 +24,7 @@ public class Main {
             }
 
         //задание 3
-        System.out.println("задание 3 ");
+        System.out.println("задание 3");
         int year = 2021;
         if (year % 400 ==0|| year % 4 ==0 && year %100 !=0 ) {
             System.out.println(year + " год является високосным");
@@ -33,7 +33,7 @@ public class Main {
         }
 
         //задание 4
-        System.out.println("задание 4 ");
+        System.out.println("задание 4");
         int deliveryDistance = 95;
         int days = 1;
         if (deliveryDistance <= 100 ) { days = days + 2;
@@ -45,7 +45,7 @@ public class Main {
         }
 
         //задание 5
-        System.out.println("задание 5 ");
+        System.out.println("задание 5");
         int mounthNumber =12;
         switch (mounthNumber) {
             case 12:
